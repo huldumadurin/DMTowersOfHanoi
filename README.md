@@ -1,16 +1,11 @@
 # Recursive Towers of Hanoi
-
-A simple program to recursively solve the Towers of Hanoi puzzle for an arbitrary number of disks.
+A short Python program to recursively solve the Towers of Hanoi puzzle for any reasonable number of disks.
 
 ## Dependencies:
 Requires Python3 and PyGame to be installed:
 On windows:
 ```
 python -m pip install pygame
-```
-On Linux:
-```
-python3 -m pip install pygame
 ```
 
 ## Usage:
