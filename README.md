@@ -18,7 +18,7 @@ To do so with <i>n</i> disks, run
 ```
 python HanoiTowers.py [n]
 ```
-Where <i>n</i> is a positive integer. Values less than 1 are clamped.
+Where <i>n</i> is an integer. Values less than 1 are clamped to 1, which makes for a very boring solution.
 
 ## Limitations:
 On my machine, this seems to work fine up to 995 disks. Higher values cause the program to crash almost immediately, due to reaching Python's default maximum recursion depth of 1000 nested calls.
